@@ -11,7 +11,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -20,11 +19,10 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 import he173206.abc.com.adapter.AddressAdapter;
-import he173206.abc.com.domain.Address;
-import he173206.abc.com.domain.BestSell;
-import he173206.abc.com.domain.Category;
-import he173206.abc.com.domain.Feature;
-import he173206.abc.com.domain.Items;
+import he173206.abc.com.model.Address;
+import he173206.abc.com.model.BestSell;
+import he173206.abc.com.model.Feature;
+import he173206.abc.com.model.Items;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -16,7 +16,7 @@ import com.bumptech.glide.Glide;
 import he173206.abc.com.DetailActivity;
 import he173206.abc.com.HomeActivity;
 import he173206.abc.com.R;
-import he173206.abc.com.domain.Items;
+import he173206.abc.com.model.Items;
 
 import java.util.List;
 

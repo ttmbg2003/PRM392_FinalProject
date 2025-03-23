@@ -6,7 +6,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -19,9 +18,9 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
-import he173206.abc.com.domain.BestSell;
-import he173206.abc.com.domain.Feature;
-import he173206.abc.com.domain.Items;
+import he173206.abc.com.model.BestSell;
+import he173206.abc.com.model.Feature;
+import he173206.abc.com.model.Items;
 
 public class DetailActivity extends AppCompatActivity {
     private ImageView mImage;

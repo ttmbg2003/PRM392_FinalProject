@@ -1,26 +1,16 @@
-package he173206.abc.com.domain;
+package he173206.abc.com.model;
+
 
 import java.io.Serializable;
 
-public class Items implements Serializable {
-
+public class Feature implements Serializable {
     String description;
     String img_url;
     String name;
-    String type;
-    int rating;
     double price;
-    String docId;
+    int rating;
 
-    public String getDocId() {
-        return docId;
-    }
-
-    public void setDocId(String docId) {
-        this.docId = docId;
-    }
-
-    public Items() {
+    public Feature() {
     }
 
     public String getDescription() {
@@ -47,12 +37,12 @@ public class Items implements Serializable {
         this.name = name;
     }
 
-    public String getType() {
-        return type;
+    public double getPrice() {
+        return price;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public int getRating() {
@@ -61,13 +51,5 @@ public class Items implements Serializable {
 
     public void setRating(int rating) {
         this.rating = rating;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 }

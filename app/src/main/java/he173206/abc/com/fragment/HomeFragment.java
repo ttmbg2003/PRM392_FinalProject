@@ -24,9 +24,9 @@ import he173206.abc.com.R;
 import he173206.abc.com.adapter.BestSellAdapter;
 import he173206.abc.com.adapter.CategoryAdapter;
 import he173206.abc.com.adapter.FeatureAdapter;
-import he173206.abc.com.domain.BestSell;
-import he173206.abc.com.domain.Category;
-import he173206.abc.com.domain.Feature;
+import he173206.abc.com.model.BestSell;
+import he173206.abc.com.model.Category;
+import he173206.abc.com.model.Feature;
 
 import java.util.ArrayList;
 import java.util.List;

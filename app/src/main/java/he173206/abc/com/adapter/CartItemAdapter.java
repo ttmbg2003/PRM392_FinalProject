@@ -17,7 +17,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import he173206.abc.com.R;
-import he173206.abc.com.domain.Items;
+import he173206.abc.com.model.Items;
 
 import java.util.List;
 

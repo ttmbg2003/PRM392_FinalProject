@@ -1,4 +1,4 @@
-package he173206.abc.com.domain;
+package he173206.abc.com.model;
 
 
 public class Address {

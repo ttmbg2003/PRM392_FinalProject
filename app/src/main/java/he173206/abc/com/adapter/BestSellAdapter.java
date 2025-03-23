@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import he173206.abc.com.DetailActivity;
 import he173206.abc.com.R;
-import he173206.abc.com.domain.BestSell;
+import he173206.abc.com.model.BestSell;
 
 import java.util.List;
 

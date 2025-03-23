@@ -19,7 +19,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.razorpay.Checkout;
 import com.razorpay.PaymentResultListener;
-import he173206.abc.com.domain.Items;
+import he173206.abc.com.model.Items;
 
 import org.json.JSONObject;
 

@@ -14,10 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import he173206.abc.com.ItemsActivity;
 import he173206.abc.com.R;
-import he173206.abc.com.domain.Category;
+import he173206.abc.com.model.Category;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHolder> {
     private Context context;
